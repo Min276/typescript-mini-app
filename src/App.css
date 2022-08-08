@@ -36,3 +36,90 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  font-family: sans-serif;
+}
+
+.title {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(71 69 69);
+}
+
+.sub-title {
+  margin-top: 3rem;
+  color: rgb(71 69 69);
+}
+
+p {
+  font-size: 18px;
+}
+
+.List {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 50rem;
+  margin: 0rem auto;
+  box-shadow: 0 0px 5px #d4d4d4;
+  border-radius: 5px;
+  padding: 1.2rem 1.5rem;
+  justify-content: space-between;
+  margin-top: 1.3rem;
+}
+
+.List-header {
+  display: flex;
+  align-items: center;
+}
+
+.List-header h2 {
+  color: rgb(71 69 69);
+  font-size: 21px;
+}
+
+.List-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.List-note {
+  margin-right: 1rem;
+  text-align: left;
+  width: 38%;
+}
+
+.AddToList {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 5rem auto;
+  margin-top: 0;
+}
+
+.AddToList-input {
+  padding: 1rem;
+  font-size: 18px;
+  margin: 0.5rem 0;
+  box-shadow: 0 0px 5px #d4d4d4;
+  border-radius: 5px;
+  border: 0;
+  font-family: sans-serif;
+}
+
+.AddToList-btn {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #0b5468;
+  font-weight: 700;
+  color: white;
+  margin-top: 1rem;
+  box-shadow: 0 0px 5px #d4d4d4;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  font-family: sans-serif;
+}
